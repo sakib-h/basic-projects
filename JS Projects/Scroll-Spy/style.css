@@ -37,3 +37,26 @@ header {
     border-radius: 10px;
     filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.35));
 }
+
+header nav {
+    display: flex;
+    width: 350px;
+}
+
+header nav a {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 60px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+}
+
+header nav a .icon{
+    
+}

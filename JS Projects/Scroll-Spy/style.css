@@ -64,9 +64,25 @@ header nav a .icon {
     font-size: 1.5em;
     text-align: center;
     transition: 0.5s;
-    color: #666
+    color: #666;
 }
-header nav a.active .icon{
+header nav a.active .icon {
     transform: translateY(-32px);
-    color: var(--clr)
+    color: var(--clr);
+}
+
+header nav a .text {
+    position: absolute;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    transform: translateY(15px);
+}
+
+header nav a.active .text{
+    transform: translateY(-4px);
 }

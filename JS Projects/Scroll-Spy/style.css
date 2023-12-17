@@ -83,6 +83,28 @@ header nav a .text {
     transform: translateY(15px);
 }
 
-header nav a.active .text{
+header nav a.active .text {
     transform: translateY(-4px);
+    background: var(--clr);
+    opacity: 1;
+}
+
+.indicator {
+    position: absolute;
+    top: -35px;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    transform: 0.5s;
+    z-index: 1;
+}
+.indicator::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -28px;
+    width: 30px;
+    border-radius: 50%;
+    background: #f00;
 }

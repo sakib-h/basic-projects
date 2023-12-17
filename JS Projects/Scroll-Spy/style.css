@@ -105,6 +105,21 @@ header nav a.active .text {
     top: 5px;
     left: -28px;
     width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background: #f00;
+    background: transparent;
+    box-shadow: 15px 18px #fff;
+    z-index: 100;
+}
+.indicator::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: -28px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: -15px 18px #fff;
+    z-index: 100;
 }

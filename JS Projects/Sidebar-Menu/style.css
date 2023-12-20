@@ -57,5 +57,24 @@ body {
     height: 70px;
     font-size: 1.5em;
     color: #333;
-    transform: 0.5s;
+    transition: 0.5s;
+}
+.sidebar ul li a .text {
+    position: relative;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #333;
+    padding-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.sidebar ul li:hover a .icon,
+.sidebar ul li:hover a .text {
+    color: var(--bg);
+}
+.bottom{
+    
 }
